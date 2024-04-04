@@ -1,6 +1,6 @@
 # Loan-Dataset-Preprocessing-for-Credit-Risk-Modeling
 # Project Description:
-This project involves preprocessing a loan dataset provided by the US office of our bank for the data science team located in our European branch. The dataset contains 10,000 entries and pertains to loans issued in US dollars. The primary objective is to prepare the data for building a credit risk model, which will assist in assessing the likelihood of loan default.
+This project involves preprocessing a loan dataset provided by the US office of our bank for the data science team located in our European branch. The dataset contains 10,000 entries and pertains to loans issued in US dollars. The primary objective is to prepare the data for building a credit risk model, which will assist in assessing the likelihood of loan default. You only need the raw data from "loan-data.csv" and resources listed in the tools section for this project
 
 ## Data Preprocessing:
 Using Python and its NumPy package, the dataset will undergo preprocessing to enhance its suitability for the data science team's modeling efforts. The preprocessing steps include handling missing data, converting string text to numeric data, and addressing potential risks associated with incomplete or unreliable information.
