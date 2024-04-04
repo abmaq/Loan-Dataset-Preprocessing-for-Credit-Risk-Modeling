@@ -22,3 +22,37 @@ By converting string text to numeric data, we enhance the dataset's usability an
 Overall, this project aims to optimize the loan dataset for credit risk modeling, leveraging Python and NumPy for efficient data preprocessing. Through meticulous handling of missing data and conversion of textual features to numeric representations, we aim to provide the data science team with a clean and structured dataset conducive to accurate credit risk assessment.
 
 
+
+## Tasks
+As a data analyst at a European branch of a bank, you are assisting in the development of a Credit Risk Model using loan data from the US branch. These are neccessary tasks to achieve your goal:
+
+1. Examine the dataset.
+2. Import the data.
+3. Split the data.
+4. Convert USD to Euros.
+5. Quantify each categorical variable.
+6. Change text columns into numbers.
+7. Treat missing information with a risk-averse approach.
+8. Clean and preprocess the data.
+9. Save to an external .csv file.
+10. Assist in developing a Credit Risk Model using Probability to determine the likelihood of default.
+
+### Methodology:
+
+1. Import Packages: Begin by importing the necessary Python packages for data analysis and manipulation, including NumPy.
+2. Import Data: Load the loan dataset provided by the US branch into your Python environment.
+3. Check for Incomplete Data: Identify and handle any missing or incomplete data in the dataset.
+4. Split Dataset: Divide the dataset into two subsets - one containing numeric data and the other containing string/text data.
+5. Rename Columns: Name the columns in each subset to ensure clarity and descriptiveness.
+6. Create Checkpoints: Establish checkpoints throughout the preprocessing steps to backup your progress and facilitate easy recovery.
+7. Manipulate String Columns: Process the string/text columns to remove excess data, rename columns for clarity, substitute strings, delete redundant columns, and convert textual data into numeric values for model compatibility.
+8. Convert USD to Euros: Add additional columns to the numeric dataset, showing the converted amounts in Euros for enhanced international analysis.
+9. Save Preprocessed Data: Save the cleaned and preprocessed dataset to an external .csv file for future use.
+10. Assist in Credit Risk Model Development: Collaborate with the data science team to develop a Credit Risk Model using probability methods to predict the likelihood of default.
+
+## Tools
+
+- Notepad++: Use Notepad++ for writing and editing code. [Download here](https://notepad-plus-plus.org/downloads/)
+- Anaconda: Install Anaconda for managing Python environments and packages effectively. [Download here](https://www.anaconda.com/download/)
+
+
