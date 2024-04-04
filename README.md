@@ -1,14 +1,26 @@
 # Loan-Dataset-Preprocessing-for-Credit-Risk-Modeling
-# Project Description:
+
+# Table of Contents
+1. [Project Description](#project-description)
+2. [Data Preprocessing](#data-preprocessing)
+3. [Risk Aversiveness and Missing Data](#risk-aversiveness-and-missing-data)
+4. [Conversion of String Text to Numeric Data](#conversion-of-string-text-to-numeric-data)
+5. [Tasks](#tasks)
+6. [Methodology](#methodology)
+7. [Tools](#tools)
+   
+
+
+# Project Description
 This project involves preprocessing a loan dataset provided by the US office of our bank for the data science team located in our European branch. The dataset contains 10,000 entries and pertains to loans issued in US dollars. The primary objective is to prepare the data for building a credit risk model, which will assist in assessing the likelihood of loan default. You only need the raw data from "loan-data.csv" and resources listed in the tools section for this project
 
-## Data Preprocessing:
+## Data Preprocessing
 Using Python and its NumPy package, the dataset will undergo preprocessing to enhance its suitability for the data science team's modeling efforts. The preprocessing steps include handling missing data, converting string text to numeric data, and addressing potential risks associated with incomplete or unreliable information.
 
-## Risk Aversiveness and Missing Data:
+## Risk Aversiveness and Missing Data
 Given the critical nature of credit risk assessment, a risk-averse approach is adopted towards handling missing data. For instance, if essential information such as the loan status is missing, it is assumed to be unverified or potentially negative. This conservative assumption ensures that the model considers the worst-case scenario, mitigating the risk of underestimating credit risk.
 
-## Conversion of String Text to Numeric Data:
+## Conversion of String Text to Numeric Data
 Converting string text to numeric data is essential for model development due to the following reasons:
 
 1. Model Compatibility: Many machine learning algorithms require numerical inputs. Converting string text to numeric data ensures compatibility with these algorithms, facilitating model development and analysis.
@@ -37,7 +49,7 @@ As a data analyst at a European branch of a bank, you are assisting in the devel
 9. Save to an external .csv file.
 10. Assist in developing a Credit Risk Model using Probability to determine the likelihood of default.
 
-### Methodology:
+### Methodology
 
 1. Import Packages: Begin by importing the necessary Python packages for data analysis and manipulation, including NumPy.
 2. Import Data: Load the loan dataset provided by the US branch into your Python environment.
